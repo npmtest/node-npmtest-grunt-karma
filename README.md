@@ -1,6 +1,6 @@
 # npmtest-grunt-karma
 
-#### test coverage for  [grunt-karma (v2.0.0)](https://github.com/karma-runner/grunt-karma#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-karma.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-karma) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-karma.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-karma)
+#### basic test coverage for  [grunt-karma (v2.0.0)](https://github.com/karma-runner/grunt-karma#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-karma.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-karma) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-karma.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-karma)
 
 #### grunt plugin for karma test runner
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-grunt-karma/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-karma/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-grunt-karma/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-karma/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-karma/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-karma/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-grunt-karma/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-grunt-karma/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-karma/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-karma/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-grunt-karma/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-grunt-karma/build/coverage.html/index.html)
 
@@ -220,7 +220,8 @@
     "scripts": {
         "test": "grunt test"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
